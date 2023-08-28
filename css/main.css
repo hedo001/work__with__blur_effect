@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/13/12/52/kuala-lumpur-1820944_960_720.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.blur{
+    height: 600px;
+    width: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    font-size: 35px;
+    background-color: rgba (54, 49, 49, 0.12);
+    backdrop-filter: blur(10px);
+}
